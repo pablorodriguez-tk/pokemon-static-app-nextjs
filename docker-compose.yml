@@ -2,6 +2,7 @@ version: "3"
 services:
   nextjs:
     image: nextjs-prod
+    restart: unless-stopped
     build: .
     ports:
       - "8080:3000"
