@@ -36,7 +36,7 @@ export const PokemonByNamePage: NextPage<Props> = ({ pokemon }) => {
     <Layout title={pokemon.name}>
       <Grid.Container css={{ marginTop: "5px" }} gap={2}>
         <Grid xs={12} sm={4}>
-          <Card isHoverable css={{ padding: "30px" }}>
+          <Card isHoverable css={{ padding: "30px" }} variant="flat">
             <Card.Body>
               <Card.Image
                 src={
@@ -51,7 +51,7 @@ export const PokemonByNamePage: NextPage<Props> = ({ pokemon }) => {
           </Card>
         </Grid>
         <Grid xs={12} sm={8}>
-          <Card>
+          <Card variant="flat">
             <Card.Header
               css={{ display: "flex", justifyContent: "space-between" }}
             >

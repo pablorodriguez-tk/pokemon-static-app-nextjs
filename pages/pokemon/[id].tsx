@@ -50,7 +50,7 @@ export const PokemonPage: NextPage<Props> = ({ pokemon }) => {
           </Card>
         </Grid>
         <Grid xs={12} sm={8}>
-          <Card>
+          <Card variant="flat">
             <Card.Header
               css={{ display: "flex", justifyContent: "space-between" }}
             >
